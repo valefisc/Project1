@@ -1,0 +1,34 @@
+let rounds = prompt("How many rounds do you wanna play?");
+console.log("Help");
+/*let integer = parseInt(rounds, 10);
+let userWins = 0;
+let computerWins = 0;
+let tie = 0;
+for(let i = 0; i <= integer; i++){
+    let userchoice = prompt ("Rock, paper or scissors? (Use r, p or s)");
+    let randomNumber = Math.floor(Math.random() * 3);
+    let computerChoice;
+    if (randomNumber === 0) {
+        computerChoice = "r";
+    } else if (randomNumber === 1){
+        computerChoice = "p";
+    } else {
+        computerChoice ="s";
+    }
+    if (computerChoice === "r" && userchoice === "p") {
+        userWins++;
+        alert ("You won!");
+    } else if (computerChoice === "p" && userchoice === "s"){
+        userWins++;
+        alert ("You won!");
+    } else if (computerChoice === "s" && userchoice === "r"){
+        userWins++;
+        alert ("You won!");
+    } else if (computerChoice === userchoice){
+        tie++;
+        alert ("It's a tie.");
+    } else {
+        computerWins++;
+        alert ("You lost.");
+    }
+}*/
