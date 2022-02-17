@@ -6,7 +6,11 @@ let computerWins = 0;
 let tie = 0;
 for(let i = 0; i < integer; i++){
     let userChoice = prompt ("Rock, paper or scissors? (Use r, p or s)");
-    console.log(userChoice) 
+    if (userChoice === "r" || userChoice === "p" || userChoice === "s"){
+        console.log(userChoice);
+    } else {
+        alert ("Invalid input!!");
+    }
     let randomNumber = Math.floor(Math.random() * 3);
     console.log (randomNumber);
     let computerChoice;
@@ -35,4 +39,4 @@ for(let i = 0; i < integer; i++){
         alert ("You lost.");
     }
 }
-alert ("Good Game! You won " + userWins + " time(s)! You lost " + computerWins + " time(s) ans tied " + tie + " time(s)!")
+alert ("Good Game! You won " + userWins + " time(s)! You lost " + computerWins + " time(s) and tied " + tie + " time(s)!");
